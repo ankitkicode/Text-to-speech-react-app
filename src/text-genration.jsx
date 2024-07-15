@@ -26,7 +26,7 @@ const TextGeneration = () => {
         {
           headers: {
             'Content-Type': 'application/json',
-            Authorization: `Bearer sk-proj-uIO3qwZzgdFxjLYr6hsTT3BlbkFJCiFgsVS3fzACpqP12qjp` // Replace with your OpenAI API key
+            Authorization: `Bearer yourapikey` // Replace with your OpenAI API key
           }
         }
       );
