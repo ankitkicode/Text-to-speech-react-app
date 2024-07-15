@@ -12,6 +12,7 @@ function App() {
     <div className="App">
         <Routes>
           <Route path="/" element={<TextToSpeech />} />
+          
           <Route path="/generations-text" element={<GenerationsText />} />
         </Routes>
       </div>
