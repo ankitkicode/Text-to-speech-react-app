@@ -1,0 +1,63 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+textarea {
+  width: 80%;
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+select {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* src/TextGeneration.module.css */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.generatedText {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #333;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  word-wrap: break-word;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
